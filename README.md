@@ -1,2 +1,2 @@
-# 和解part1
+# Sentiment analysis 
 Bert+KMeans+Bi-lstm+Coreset+Uncertainty+small_text
