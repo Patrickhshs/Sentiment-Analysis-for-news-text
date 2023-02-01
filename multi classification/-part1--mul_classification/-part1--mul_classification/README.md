@@ -1,4 +1,2 @@
-# 有监督的多分类模型
-首先将数据预处理，将新闻的分数通过dct变换标准化，变成同一长度为100的数值序列。之后进行数据切分成训练集和测试集，并进行模型训练。
-接下来用主动学习挑选出来的数据交给Oracle标注，再导入训练好的模型进行指标计算，找出与Oracle标注不同的新闻并分析。
-然后使用Oracle标注的新闻进行模型的再训练，并计算指标，由此往复，知道达到标准为之。
+Firstly, the data are pre-processed by normalizing the scores of news into a sequence of values of the same length of 100 by dct transform. After that, the data is sliced into training and test sets, and the model is trained. Next, the data selected by active learning is given to Oracle for labeling, and then the trained model is imported for metrics calculation to find the news that differ from the Oracle labeling and analyze them. Then we use the Oracle labeled news to retrain the model and calculate the metrics, and so on, until we reach the standard.
+
